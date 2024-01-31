@@ -1,0 +1,72 @@
+body {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.container {
+  align-items: flex-start;
+  display: flex;
+  width: auto;
+  padding: 25px;
+  font-family: 'Arial', sans-serif;
+}
+
+.leftSide {
+  width: 40%;
+  padding: 25px;
+  background-color: #d7e6fb;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 100%;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.photo_img {
+  width: 70%;
+  border-radius: 60%;
+  border: #7690b0 2.5px solid;
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.rightSide {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+  background-color: #f5f8ff;
+  padding: 25px;
+  text-align: justify;
+  height: 100%;
+  position: relative;
+}
+.Work {
+  display: flex;
+  justify-content: flex;
+  flex-direction: column;
+  padding: 15px;
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  padding-right: 25px;
+}
